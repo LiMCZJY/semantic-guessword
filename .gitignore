@@ -1,0 +1,24 @@
+# ---- 打包产物（不入库）----
+dist/
+build/
+*.spec
+
+# ---- 语义模型（第三方权重 BAAI/bge-small-zh-v1.5，~95MB，不入库；获取方式见 README）----
+models/
+
+# ---- Python 缓存 ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ---- 运行时生成的状态 / 日志 ----
+theme.json
+*.log
+crash.log
+run.log
+exe_run.log
+build_log.txt
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
